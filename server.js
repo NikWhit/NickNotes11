@@ -1,6 +1,5 @@
 const express = require('express');
 const path = require ('path');
-const api = require('./routes/index');
 // Source is in 21_Modular-Routing/server.js
 
 const app = express();
@@ -15,7 +14,6 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.static('public'));
 
 //Requests that have /api to the index.js in the routes folder
-app.use('/api', api);
 
 //--22-Stu_Modular-Routing
 // app.get('/api/notes', (req, res) => {
