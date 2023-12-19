@@ -1,7 +1,7 @@
 const express = require('express');
 
 //Import file with notes router
-const notesRouter = require('./notes');
+const notesRouter = require('/notes');
 
 //use express instance
 const app = express();
