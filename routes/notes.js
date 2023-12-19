@@ -1,5 +1,5 @@
 const notes = require ('express').Router();
-const uuid = require ('../helper/uuid');
+const uuid = require ('../helpers/uuid');
 const fs = require('fs');
 
 //The GET api route for note retrieval
